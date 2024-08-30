@@ -3,10 +3,12 @@ public class Oops {
     String color;
     String model;
     
-
     void drive(){
         System.out,println("the car is driving");
+ 
     }
+     void stop(){
+        System.out,println("the car is stoped");
    
     }
     public static void main(String[] args){
@@ -16,6 +18,7 @@ public class Oops {
        
 
         obj.drive();
+        obj.stop();
        
 
         System.out.println("car model is" +obj.model);
